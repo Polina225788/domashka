@@ -1,13 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-
-namespace domashka
+namespace задание10
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             Console.Write("Введите трёхзначное число: ");
+
             int num = Convert.ToInt32(Console.ReadLine());
 
             int secondDigit = (num / 10) % 10;
@@ -15,10 +19,8 @@ namespace domashka
             Console.WriteLine("Вторая цифра числа {0} равна {1}", num, secondDigit);
 
             Console.ReadLine();
+
+
         }
     }
 }
-
-        
-    
-
